@@ -20,8 +20,8 @@ $ docker images
 $ docker run -it --name pythonlab3 python-app:1.0 
 * Browse to the port 5000 to check if you can reach the application: <br/>
  http://localhost:5000 <br/>
-* It is not working, That is fine!<br/>
-* Port 5000 is not exposed to the host therefore we can not reach the application. We will see how to expose the container's ports in the next module.<br/>
+* It is not working, **That is fine!** <br/>
+* Port 5000 is not exposed to the host therefore we can not reach the application. We will see how to expose the container's ports in the **next module.** <br/>
 * Exit from the container using: <br/>
 $ CTRL + C 
 * Now, Docker run the same image but pass a command as "run parameters": <br/>
