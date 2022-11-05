@@ -54,22 +54,22 @@ Lab 07: Managing Containers <br/>
 * Inspect the first container and look for the internal ip: <br/>
   $ docker inspect python-app1 
  
- "Networks": {
-                "bridge": {
-                    "IPAMConfig": null,
-                    "Links": null,
-                    "Aliases": null,
-                    "NetworkID": "822cb66790c6358d9decab874916120f3bdeff7193a4375c94ca54d50832303d",
-                    "EndpointID": "9aa96dc29be08eddc6d8f429ebecd2285c064fda288681a3611812413cbdfc1f",
-                    "Gateway": "172.17.0.1",
-                    "IPAddress": "172.17.0.3",
-                    "IPPrefixLen": 16,
-                    "IPv6Gateway": "",
-                    "GlobalIPv6Address": "",
-                    "GlobalIPv6PrefixLen": 0,
-                    "MacAddress": "02:42:ac:11:00:03",
-                    "DriverOpts": null
-                }
+ "Networks": {<br/>
+                "bridge": { <br/>
+                    "IPAMConfig": null, <br/>
+                    "Links": null,<br/>
+                    "Aliases": null, <br/>
+                    "NetworkID": "822cb66790c6358d9decab874916120f3bdeff7193a4375c94ca54d50832303d",<br/>
+                    "EndpointID": "9aa96dc29be08eddc6d8f429ebecd2285c064fda288681a3611812413cbdfc1f", <br/>
+                    "Gateway": "172.17.0.1",<br/>
+                    "IPAddress": "172.17.0.3",<br/>
+                    "IPPrefixLen": 16,<br/>
+                    "IPv6Gateway": "", <br/>
+                    "GlobalIPv6Address": "", <br/>
+                    "GlobalIPv6PrefixLen": 0, <br/>
+                    "MacAddress": "02:42:ac:11:00:03",<br/>
+                    "DriverOpts": null<br/>
+                }<br/>
             } <br/>
    
    * Show the logs of the second container using the flag --follow: <br/>
