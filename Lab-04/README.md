@@ -55,6 +55,6 @@ $ docker images <br/>
 $ docker load -i static-app-3.1.tar
 * Ensure the image was loaded successfully: <br/>
 $ docker images
-* Clean your Docker engine's environment:
+* Clean your Docker engine's environment: <br/>
 $ docker rmi -f $(docker images -a -q)
 
