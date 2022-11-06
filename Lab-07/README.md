@@ -96,6 +96,6 @@ Lab 07: Managing Containers <br/>
    
    # Cleanup <br/>
    
-   * Remove used containers:
+   * Remove used containers:<br/>
      $ docker rm -f python-app1 python-app2
     
