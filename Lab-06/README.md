@@ -5,7 +5,7 @@ Lab 06: Building more complex images
 * Ensure you are in the previous created folder path (lab-05):<br/>
 $ pwd
 * Create a file named "index.html" next to the Dockerfile with the content below: <br/> 
-  echo "<h1>Python App</h1>" > index.html
+  echo "<html>Python App</html>" > index.html <br/>
 * Check your current directory before you proceed: <br/>
   $ ls -l <br/>
 
