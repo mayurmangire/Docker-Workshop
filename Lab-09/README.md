@@ -20,18 +20,18 @@
   $ docker run -it --name ubuntu selaworkshops/ubuntu:18.04
   
 * Install curl on the ubuntu container: <br/>
-  $ apt-get update
-  $ apt-get install curl -y
+  $ apt-get update <br/>
+  $ apt-get install curl -y <br/>
 
 * From the ubuntu's container terminal try to browse to the app container: <br/>
-  $ curl <app-container-internal-ip>:8081
+  $ curl <<-app-container-internal-ip->>:8081
 
-* **It is not working..** <br/>
+* **It is not working.....let us examine why** <br/>
 * From the other terminal session (host terminal) run the command below to attach the ubuntu container to the created network: <br/>
   $ docker network connect my-bridge-network ubuntu
  
 * From the ubuntu container terminal try to browse to the app container again: <br/>
-  $ curl <app-container-internal-ip>:8081
+  $ curl <<-app-container-internal-ip->>:8081
 * Now you will be able to reach the application: <br/>
   <h1>Python App</h1>
   
