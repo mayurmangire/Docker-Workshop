@@ -3,9 +3,11 @@ Lab 10: Working with Docker Hub (Registry) <br/>
 
 ## Preparations <br/>
 
+* The Dockerfile referred in this lab is available for download.
 * Create a new folder for the lab: <br/>
   $ mkdir lab-10 <br/>
-  $ cd lab-10
+  $ cd lab-10 <br/>
+  
   
 ## Instructions <br/>
 
