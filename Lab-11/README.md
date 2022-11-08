@@ -7,6 +7,7 @@ Lab 11: Docker Compose <br/>
   
 ## Preparations <br/>
 
+* The docker-compose file referred in the lab is available for download. 
 * Create a new folder for the lab: <br/>
   mkdir lab-11 <br/>
   cd lab-11 <br/>
