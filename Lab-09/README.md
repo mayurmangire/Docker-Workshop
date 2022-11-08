@@ -33,7 +33,7 @@
 * From the ubuntu container terminal try to browse to the app container again: <br/>
   $ curl <<-app-container-internal-ip->>:8081
 * Now you will be able to reach the application: <br/>
-  <h1>Python App</h1>
+  **Python App**  <br/>
   
 * Inspect the network from the host terminal and look for the linked containers: <br/>
   $ docker inspect my-bridge-network <br/>
