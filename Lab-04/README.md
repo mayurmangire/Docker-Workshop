@@ -14,10 +14,10 @@ Lab 04: Updating and Sharing Containers
 * Open a Bash terminal in the container using the exec command: <br/>
   $ docker exec -it static-app-3.0 /bin/bash
 * Create a new file in the container using this command:<br/>
-$- echo "Very secret content :)" > secret-file <br/>
-$- # ls -l <br/>
-     cat secret-file <br/>
-     exit </br>
+  $ echo "Very secret content :)" > secret-file <br/>
+  $ ls -l <br/>
+  $ cat secret-file <br/>
+  $ exit </br>
 * Check the current images:
   $ docker images
 * Create a new image including the changes: <br/>
